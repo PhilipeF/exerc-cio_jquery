@@ -1,1 +1,3 @@
-alert('Opa');
+$(document).ready(()=> {
+    $
+})

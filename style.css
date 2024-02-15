@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sixing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+body {    
+    display: flex;
+    margin: 10% 0;
+    justify-content: center;
+    height: 100vh
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form input {
+    padding: 5px;
+}
+
+form button {
+    padding: 7px;
+    background: #009432;
+    cursor: pointer;   
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #fff;
+}

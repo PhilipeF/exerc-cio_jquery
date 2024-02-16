@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sixing: border-box;
+    box-sizing: border-box;
 
     font-family: 'Roboto', sans-serif;
 }
@@ -32,6 +32,12 @@ form ul li {
     font-size: 14px;
 }
 
+.tarefaCompleta {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    
+}
+
 form input {
     padding: 5px;
     margin-bottom: 20px;    
@@ -39,10 +45,14 @@ form input {
 
 form button {
     padding: 7px;
-    background: #009432;
+    background: #65a30d;
     cursor: pointer;   
     border: none;
     border-radius: 3px;
     font-weight: bold;
-    color: #fff;
+    color: black;
+}
+
+form button:hover {
+    background: #84cc16;
 }
